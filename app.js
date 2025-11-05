@@ -9,12 +9,7 @@ const app = express();
 
 app.use(cors(
     {
-  origin: [
-    "http://localhost",
-    "http://localhost:5080",
-    "wss://jeeni-e11mo5mz.livekit.cloud",
-    "http://localhost:5173"
-  ]
+  origin: "*"
 }
 ));
 
